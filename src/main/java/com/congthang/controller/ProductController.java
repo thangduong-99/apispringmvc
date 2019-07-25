@@ -19,11 +19,6 @@ public class ProductController {
     @Autowired
     private ProductService productService;
  
-    @RequestMapping("/")
-    
-    public String welcome() {
-        return "Hello";
-    }
     @RequestMapping(value = "/products", //
             method = RequestMethod.GET)
     
