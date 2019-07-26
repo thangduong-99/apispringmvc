@@ -12,13 +12,13 @@ import javax.persistence.Table;
 public class Product {
 	@Id
 	@GeneratedValue
-	@Column(name = "productId")
+	@Column(name = "productId", nullable = true)
 	private int productId;
-	@Column(name = "name")
+	@Column(name = "name", nullable = false , length = 50)
 	private String name;
-	@Column(name = "price")
+	@Column(name = "price" ,nullable = false)
 	private int price;
-	@Column(name = "amount")
+	@Column(name = "amount" , nullable = false)
 	private int amount;
 	public Product() {
 		super();
