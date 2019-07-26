@@ -25,8 +25,19 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>org.springframework.ide.eclipse.core.springbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.springframework.ide.eclipse.boot.validation.springbootbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>org.springframework.ide.eclipse.core.springnature</nature>
 		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
 		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
@@ -34,4 +45,21 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/webapp/resources/email</name>
+			<type>2</type>
+			<location>C:/Users/thang.nguyencong/Desktop/New folder/ContactFrom_v1</location>
+		</link>
+		<link>
+			<name>src/main/webapp/resources/login</name>
+			<type>2</type>
+			<location>C:/Users/thang.nguyencong/Desktop/New folder/login</location>
+		</link>
+		<link>
+			<name>src/main/webapp/resources/signUp</name>
+			<type>2</type>
+			<location>C:/Users/thang.nguyencong/Desktop/New folder/Login_v13</location>
+		</link>
+	</linkedResources>
 </projectDescription>
