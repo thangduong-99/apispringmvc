@@ -1,6 +1,5 @@
 package com.congthang.config;
 
-
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,6 +43,5 @@ public class ApplicationContextConfig {
 	        viewResolver.setSuffix(".jsp");
 	        return viewResolver;
 	    }
-	  
  
 }
